@@ -260,7 +260,7 @@ def parse_args():
   
 if __name__ == '__main__':
     args = parse_args()
-    ann_path_src = os.path.join(args.data_dir, 'Annotations','Annotations.mat')
+    ann_path_src = os.path.join(args.data_dir,'Annotations','Annotations', 'Annotations.mat')
     data_path_src = os.path.join(args.data_dir, 'emotic')
     save_path = os.path.join(args.data_dir, args.save_dir_name)
     if not os.path.exists(save_path):
